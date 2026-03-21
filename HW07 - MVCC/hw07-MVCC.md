@@ -1,8 +1,12 @@
 ## Создать инстанс ВМ с 2 ядрами и 4 Гб ОЗУ и SSD 10GB
-![](Image01.jpg)
-![](Image02.jpg)
+![](Image01_10.jpg)
 ## Установить на него PostgreSQL с дефолтными настройками
-![](Image03.jpg)
+```sh
+sudo apt install -y postgresql-common
+sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
+sudo apt install -y postgresql-18
+```
+![](Image02.jpg)
 ## Создать БД для тестов: выполнить pgbench -i postgres
 ![](Image04.jpg)
 ## Запустить pgbench -c8 -P 6 -T 60 -U postgres postgres
