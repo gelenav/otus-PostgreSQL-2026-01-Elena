@@ -1,5 +1,6 @@
 ## 1. Создать индекс к какой-либо из таблиц БД
-Создаю индекс к таблице boarding_passes на поле flight_id
+Создаю индекс к таблице boarding_passes на поле flight_id.
+
 Таблица boarding_passes:
 ```
 ticket_no     | flight_id | seat_no | boarding_no | boarding_time 
